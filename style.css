@@ -1,0 +1,35 @@
+body{
+    padding: 20px;
+}
+#card:nth-child(even){
+    
+    width: 90%;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#card:nth-child(odd){
+    
+    width: 90%;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+h3{
+    text-align: center;
+    
+}
+#name{
+    text-align: center;
+    font-size: 26px;
+
+}
+#email{
+    text-align: center;
+    color: blueviolet;
+}
+#body{
+    text-align: center;
+}
